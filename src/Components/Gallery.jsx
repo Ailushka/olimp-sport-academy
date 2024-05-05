@@ -1,3 +1,5 @@
+import photo from "../images/gallery_photo.jpeg";
+
 function Gallery() {
   return (
     <section className="gallery container">
@@ -7,42 +9,42 @@ function Gallery() {
         <li className="gallery__item">
           <img
             className="gallery__img"
-            src="https://imgholder.ru/350x300/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
+            src={photo}
             alt=""
           />
         </li>
         <li className="gallery__item">
           <img
             className="gallery__img"
-            src="https://imgholder.ru/350x300/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
+            src="https://imgholder.ru/320x240/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
             alt=""
           />
         </li>
         <li className="gallery__item">
           <img
             className="gallery__img"
-            src="https://imgholder.ru/350x300/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
+            src="https://imgholder.ru/320x240/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
             alt=""
           />
         </li>
         <li className="gallery__item">
           <img
             className="gallery__img"
-            src="https://imgholder.ru/350x300/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
+            src="https://imgholder.ru/320x240/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
             alt=""
           />
         </li>
         <li className="gallery__item">
           <img
             className="gallery__img"
-            src="https://imgholder.ru/350x300/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
+            src="https://imgholder.ru/320x240/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
             alt=""
           />
         </li>
         <li className="gallery__item">
           <img
             className="gallery__img"
-            src="https://imgholder.ru/350x300/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
+            src="https://imgholder.ru/320x240/8493a8/adb9ca.jpg&text=IMAGE+HOLDER&font=kelson"
             alt=""
           />
         </li>
